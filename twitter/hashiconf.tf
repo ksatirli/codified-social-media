@@ -2,7 +2,7 @@ resource "twitter_list" "hashiconf_digital_europe_2021" {
   name = "HashiConf Digital (Europe 2021)"
   mode = "public"
 
-  description = "@HashiConf Digital (Europe 2021) Speakers"
+  description = "@HashiConf Digital (Europe 2021) Speakers."
 
   members = [
     "austingebauer",

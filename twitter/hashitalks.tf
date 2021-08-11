@@ -2,7 +2,7 @@ resource "twitter_list" "hashitalks_build_2021" {
   name = "HashiTalks: Build (2021)"
   mode = "public"
 
-  description = "A list of speakers and contributors of HashiTalks: Build (2021)."
+  description = "Speakers and contributors of HashiTalks: Build (2021)."
 
   members = [
     "_shishir_m",
