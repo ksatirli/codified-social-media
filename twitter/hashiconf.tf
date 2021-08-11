@@ -1,5 +1,5 @@
 resource "twitter_list" "hashiconf_digital_europe_2021" {
-  name = "HashiConf Digital (Europe 2021)"
+  name = "HashiConf Digital (EU'21)"
   mode = "public"
 
   description = "@HashiConf Digital (Europe 2021) Speakers."
