@@ -10,9 +10,9 @@ terraform {
 }
 
 provider "twitter" {
-  access_token        = "${var.access_token}"
-  access_token_secret = "${var.access_token_secret}"
+  access_token        = var.access_token
+  access_token_secret = var.access_token_secret
 
-  consumer_api_key    = "${var.consumer_api_key}"
-  consumer_api_secret = "${var.consumer_api_secret}"
+  consumer_api_key    = var.consumer_api_key
+  consumer_api_secret = var.consumer_api_secret
 }
