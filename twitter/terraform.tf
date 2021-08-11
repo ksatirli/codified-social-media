@@ -1,4 +1,13 @@
 terraform {
+  backend "remote" {
+    hostname     = "app.terraform.io"
+    organization = "ksatirli"
+
+    workspaces {
+      name = "codified-social-media-twitter"
+    }
+  }
+
   required_providers {
     twitter = {
       source  = "paultyng/twitter"
