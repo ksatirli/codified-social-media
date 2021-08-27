@@ -15,7 +15,7 @@ terraform {
     }
   }
 
-  required_version = "1.0.4"
+  required_version = "1.0.5"
 }
 
 provider "twitter" {
