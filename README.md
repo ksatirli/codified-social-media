@@ -13,7 +13,7 @@
 
 ## Requirements
 
-- Terraform `1.0.4` or newer
+- Terraform `1.0.8` or newer
 
 ## Author Information
 
