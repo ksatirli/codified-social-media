@@ -11,6 +11,7 @@ resource "twitter_list" "hashicorp_das" {
     "devopsjacquie",
     "devopsjono",
     "erikveld",
+    "heddameow",
     "JColeMorrison",
     "joatmon08",
     "justinklztr",
