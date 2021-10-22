@@ -2,9 +2,7 @@ resource "twitter_list" "hashicorp_ambassadors_2021" {
   name = "HashiCorp Ambassadors '21"
   mode = "public"
 
-  description = "A list of @HashiCorp Ambassadors for 2021.
-
-More information on hashicorp.com/ambassadors."
+  description = "A list of @HashiCorp Ambassadors for 2021.\n\nMore information on hashicorp.com/ambassadors."
 
   members = [
     "AdinErmie",
@@ -90,7 +88,7 @@ resource "twitter_list" "hashicorp_ambassadors_2020" {
   name = "HashiCorp Ambassadors '20"
   mode = "public"
 
-  description = "A list of @HashiCorp Ambassadors for 2020."
+  description = "A list of @HashiCorp Ambassadors for 2020.\n\nMore information on hashicorp.com/ambassadors."
 
   members = [
     "AdinErmie",
