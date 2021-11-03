@@ -1,3 +1,4 @@
+# see https://registry.terraform.io/providers/paultyng/twitter/latest/docs/resources/list
 resource "twitter_list" "hashicorp_das" {
   name = "HashiCorp DAs and TCMs"
   mode = "public"
@@ -27,5 +28,19 @@ resource "twitter_list" "hashicorp_das" {
     "SolutionGeek",
     "tracypholmes",
     "XanderGrzy",
+  ]
+}
+
+# see https://registry.terraform.io/providers/paultyng/twitter/latest/docs/resources/list
+resource "twitter_list" "hashicorp_edueng" {
+  name = "HashiCorp Education Engineers"
+  mode = "public"
+
+  description = "(current and former) edu engineering folks at @HashiCorp."
+
+  members = [
+    "im2nguyen",
+    "JudithPatudith",
+    "topfunky"
   ]
 }

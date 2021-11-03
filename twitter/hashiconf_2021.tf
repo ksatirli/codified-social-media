@@ -1,3 +1,4 @@
+# see https://registry.terraform.io/providers/paultyng/twitter/latest/docs/resources/list
 resource "twitter_list" "hashiconf_digital_global_2021" {
   name = "HashiConf Digital '21"
   mode = "public"
@@ -34,6 +35,7 @@ resource "twitter_list" "hashiconf_digital_global_2021" {
   ]
 }
 
+# see https://registry.terraform.io/providers/paultyng/twitter/latest/docs/resources/list
 resource "twitter_list" "hashiconf_digital_europe_2021" {
   name = "HashiConf Digital (EU'21)"
   mode = "public"
