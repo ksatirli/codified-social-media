@@ -1,3 +1,4 @@
+# see https://registry.terraform.io/providers/paultyng/twitter/latest/docs/resources/list
 resource "twitter_list" "hashicorp_das" {
   name = "HashiCorp DAs and TCMs"
   mode = "public"
