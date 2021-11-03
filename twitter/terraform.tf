@@ -1,13 +1,16 @@
 terraform {
+  # see https://www.terraform.io/docs/language/settings/backends/remote.html
   backend "remote" {
     hostname     = "app.terraform.io"
     organization = "ksatirli"
 
     workspaces {
+      # see https://app.terraform.io/app/ksatirli/workspaces/codified-social-media-twitter
       name = "codified-social-media-twitter"
     }
   }
 
+  # see https://www.terraform.io/docs/language/settings/index.html#specifying-provider-requirements
   required_providers {
     twitter = {
       source  = "paultyng/twitter"
@@ -15,9 +18,11 @@ terraform {
     }
   }
 
-  required_version = "1.0.8"
+  # see https://www.terraform.io/docs/language/settings/index.html#specifying-a-required-terraform-version
+  required_version = "1.10.0"
 }
 
+# see https://registry.terraform.io/providers/paultyng/twitter/latest/docs
 provider "twitter" {
   access_token        = var.access_token
   access_token_secret = var.access_token_secret
