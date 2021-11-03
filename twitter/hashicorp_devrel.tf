@@ -3,7 +3,7 @@ resource "twitter_list" "hashicorp_das" {
   name = "HashiCorp DAs and TCMs"
   mode = "public"
 
-  description = "(current and former) developer advocates and community folks at @HashiCorp."
+  description = "(current / former) developer advocates and community folks at @HashiCorp."
 
   members = [
     "amierchery",
@@ -36,11 +36,19 @@ resource "twitter_list" "hashicorp_edueng" {
   name = "HashiCorp Education Engineers"
   mode = "public"
 
-  description = "(current and former) edu engineering folks at @HashiCorp."
+  description = "(current / former) edu engineering folks at @HashiCorp."
 
   members = [
+    "acidprime",
+    "classicwebdog",
+    "derekstrickland",
+    "DevRelChap",
     "im2nguyen",
     "JudithPatudith",
-    "topfunky"
+    "KendallStraut",
+    "Lisa_Spooner",
+    "robinnorwood",
+    "suchwinston",
+    "topfunky",
   ]
 }
