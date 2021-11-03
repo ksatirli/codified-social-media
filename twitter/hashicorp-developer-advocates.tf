@@ -5,8 +5,10 @@ resource "twitter_list" "hashicorp_das" {
   description = "(current and former) developer advocates and community folks at @HashiCorp."
 
   members = [
+    "amierchery",
     "build1point0",
     "christi3k",
+    "c_r_w",
     "devops_rob",
     "devopsjacquie",
     "devopsjono",
