@@ -1,3 +1,4 @@
+# see https://registry.terraform.io/providers/paultyng/twitter/latest/docs/resources/list
 resource "twitter_list" "hashicorp_ambassadors_2021" {
   name = "HashiCorp Ambassadors '21"
   mode = "public"
@@ -84,6 +85,7 @@ resource "twitter_list" "hashicorp_ambassadors_2021" {
   ]
 }
 
+# see https://registry.terraform.io/providers/paultyng/twitter/latest/docs/resources/list
 resource "twitter_list" "hashicorp_ambassadors_2020" {
   name = "HashiCorp Ambassadors '20"
   mode = "public"
