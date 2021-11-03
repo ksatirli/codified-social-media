@@ -33,10 +33,10 @@ resource "twitter_list" "hashicorp_das" {
 
 # see https://registry.terraform.io/providers/paultyng/twitter/latest/docs/resources/list
 resource "twitter_list" "hashicorp_edueng" {
-  name = "HashiCorp Education Engineers"
+  name = "HashiCorp Education"
   mode = "public"
 
-  description = "(current / former) edu engineering folks at @HashiCorp."
+  description = "(current / former) edu folks at @HashiCorp."
 
   members = [
     "acidprime",
