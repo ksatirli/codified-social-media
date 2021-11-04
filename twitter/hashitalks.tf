@@ -46,3 +46,15 @@ resource "twitter_list" "hashitalks_build_2021" {
     "YellsOld",
   ]
 }
+
+resource "twitter_list" "hashitalks_espana_2021" {
+  name = "HashiTalks: España (2021)"
+  mode = "public"
+
+  description = "Speakers and contributors of HashiTalks: España (2021)."
+
+  members = [
+    "katiereese317",
+    "lynxman",
+  ]
+}
