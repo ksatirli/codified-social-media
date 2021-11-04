@@ -56,5 +56,6 @@ resource "twitter_list" "hashitalks_espana_2021" {
   members = [
     "katiereese317",
     "lynxman",
+    "ricardclau",
   ]
 }
