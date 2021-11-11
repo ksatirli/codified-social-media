@@ -7,6 +7,22 @@ variable "hashitalks" {
 
   default = [
     {
+      name        = "HashiTalks: America Latina (2021)"
+      description = "Speakers and contributors of HashiTalks: America Latina (2021)."
+
+      members = [
+        "aminespinoza",
+        "alexisworking",
+        "gnuowned",
+        "joatmon08",
+        "katiereese317",
+        "mariogmd",
+        "patoarvizu",
+        "rmasabela",
+        "yurynino",
+      ]
+    },
+    {
       name        = "HashiTalks: Build (2021)"
       description = "Speakers and contributors of HashiTalks: Build (2021)."
 
@@ -71,5 +87,5 @@ resource "twitter_list" "hashitalks" {
 
 # see https://www.terraform.io/docs/language/values/outputs.html
 output "hashitalks_lists" {
-  value = toset([ for list in twitter_list.hashitalks : "${var.base_url}${list.uri}" ])
+  value = toset([for list in twitter_list.hashitalks : "${var.base_url}${list.uri}"])
 }

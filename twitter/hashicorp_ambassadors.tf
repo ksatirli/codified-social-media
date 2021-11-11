@@ -87,7 +87,8 @@ variable "hashicorp_ambassadors" {
         "trentrosenbaum",
         "virtualhobbit",
       ]
-      }, {
+    },
+    {
       name        = "HashiCorp Ambassadors 20"
       description = "A list of @HashiCorp Ambassadors for 2020. More information on hashicorp.com/ambassadors."
 
@@ -157,5 +158,5 @@ resource "twitter_list" "hashicorp_ambassadors" {
 
 # see https://www.terraform.io/docs/language/values/outputs.html
 output "hashicorp_ambassadors_lists" {
-  value = toset([ for list in twitter_list.hashicorp_ambassadors : "${var.base_url}${list.uri}" ])
+  value = toset([for list in twitter_list.hashicorp_ambassadors : "${var.base_url}${list.uri}"])
 }

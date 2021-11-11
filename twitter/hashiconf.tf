@@ -37,7 +37,8 @@ variable "hashiconf" {
         "robbiethng",
         "sheriffjackson",
       ]
-      }, {
+    },
+    {
       name        = "HashiConf Digital (EU 21)"
       description = "@HashiConf Digital (Europe 2021) Speakers."
 
@@ -64,7 +65,7 @@ variable "hashiconf" {
         "rustbeltrae",
         "sarki247",
         "sheriffjackson",
-        "tracey_pooh"
+        "tracey_pooh",
       ]
     }
   ]
@@ -86,5 +87,5 @@ resource "twitter_list" "hashiconf" {
 
 # see https://www.terraform.io/docs/language/values/outputs.html
 output "hashiconf_lists" {
-  value = toset([ for list in twitter_list.hashiconf : "${var.base_url}${list.uri}" ])
+  value = toset([for list in twitter_list.hashiconf : "${var.base_url}${list.uri}"])
 }

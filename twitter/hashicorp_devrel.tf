@@ -34,7 +34,8 @@ variable "hashicorp_folks" {
         "tracypholmes",
         "XanderGrzy",
       ]
-      }, {
+    },
+    {
       name        = "HashiCorp Education",
       description = "(current / former) edu folks at @HashiCorp.",
 
