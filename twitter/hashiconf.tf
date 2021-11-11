@@ -83,3 +83,8 @@ resource "twitter_list" "hashiconf" {
   description = each.value.description
   members     = each.value.members
 }
+
+# see https://www.terraform.io/docs/language/values/outputs.html
+output "hashiconf_lists" {
+  value = toset([ for list in twitter_list.hashiconf : "${var.base_url}${list.uri}" ])
+}

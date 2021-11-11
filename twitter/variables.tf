@@ -21,3 +21,9 @@ variable "consumer_api_secret" {
   sensitive   = true
   type        = string
 }
+
+variable "base_url" {
+  description = "Twitter Base URL."
+  default     = "https://twitter.com"
+  type        = string
+}

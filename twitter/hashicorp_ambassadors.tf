@@ -154,3 +154,8 @@ resource "twitter_list" "hashicorp_ambassadors" {
   description = each.value.description
   members     = each.value.members
 }
+
+# see https://www.terraform.io/docs/language/values/outputs.html
+output "hashicorp_ambassadors_lists" {
+  value = toset([ for list in twitter_list.hashicorp_ambassadors : "${var.base_url}${list.uri}" ])
+}
