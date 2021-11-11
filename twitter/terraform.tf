@@ -12,6 +12,7 @@ terraform {
 
   # see https://www.terraform.io/docs/language/settings/index.html#specifying-provider-requirements
   required_providers {
+    # see https://registry.terraform.io/providers/paultyng/twitter/0.1.0
     twitter = {
       source  = "paultyng/twitter"
       version = "0.1.0"
@@ -19,7 +20,7 @@ terraform {
   }
 
   # see https://www.terraform.io/docs/language/settings/index.html#specifying-a-required-terraform-version
-  required_version = "1.0.10"
+  required_version = "1.0.11"
 }
 
 # see https://registry.terraform.io/providers/paultyng/twitter/latest/docs
