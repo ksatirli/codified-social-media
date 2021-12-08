@@ -7,13 +7,36 @@ variable "hashitalks" {
 
   default = [
     {
-      name        = "HashiTalks: America Latina (2021)"
-      description = "Speakers and contributors of HashiTalks: America Latina (2021)."
+      name        = "HashiTalks: Deploy (2021)"
+      description = "Speakers and contributors of HashiTalks: Deploy (2021)."
+
+      members = [
+        "AngelOnFira",
+        "attachmentgenie",
+        "griffithsgrant",
+        "i0rek",
+        "JColeMorrison",
+        "joatmon08",
+        "ksatirli",
+        "lockigkind",
+        "majesticmarins",
+        "marcjleblanc",
+        "martinb3",
+        "proffalken",
+        "roberthTweets",
+        "rustbeltrae",
+        "SoFetchPhoto",
+        "onlydole",
+      ]
+      }, {
+      name        = "HashiTalks: LatAm (2021)"
+      description = "Speakers and contributors of HashiTalks: América Latina (2021)."
 
       members = [
         "aminespinoza",
         "alexisworking",
         "gnuowned",
+        "herrera_luis10",
         "joatmon08",
         "katiereese317",
         "mariogmd",
@@ -21,8 +44,7 @@ variable "hashitalks" {
         "rmasabela",
         "yurynino",
       ]
-    },
-    {
+      }, {
       name        = "HashiTalks: Build (2021)"
       description = "Speakers and contributors of HashiTalks: Build (2021)."
 
