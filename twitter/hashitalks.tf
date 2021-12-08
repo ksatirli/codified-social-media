@@ -22,6 +22,7 @@ variable "hashitalks" {
         "majesticmarins",
         "marcjleblanc",
         "martinb3",
+        "MNomitch",
         "proffalken",
         "roberthTweets",
         "rustbeltrae",
