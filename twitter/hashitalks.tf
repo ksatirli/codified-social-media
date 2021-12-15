@@ -7,6 +7,23 @@ variable "hashitalks" {
 
   default = [
     {
+      name        = "HashiTalks: DACH (2021)"
+      description = "Speakers and contributors of HashiTalks: DACH (2021)."
+
+      members = [
+        "cedricfeist",
+        "chfrank_cgn",
+        "daniel-ciaglia",
+        "elft3r",
+        "erikveld",
+        "HansHasselberg",
+        "ksatirli",
+        "mazin_power",
+        "SoFetchPhoto",
+        "this_is_carsten ",
+        "onlydole",
+      ]
+      }, {
       name        = "HashiTalks: Deploy (2021)"
       description = "Speakers and contributors of HashiTalks: Deploy (2021)."
 
