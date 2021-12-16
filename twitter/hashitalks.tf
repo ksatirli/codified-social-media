@@ -18,6 +18,7 @@ variable "hashitalks" {
         "erikveld",
         "HansHasselberg",
         "ksatirli",
+        "lom4r92",
         "mazin_power",
         "SoFetchPhoto",
         "this_is_carsten ",
