@@ -22,6 +22,7 @@ variable "hashicorp_folks" {
         "HeddaMeow",
         "JColeMorrison",
         "joatmon08",
+        "jrsyo",
         "justinklztr",
         "katiereese317",
         "ksatirli",
