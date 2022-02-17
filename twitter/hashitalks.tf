@@ -108,6 +108,53 @@ variable "hashitalks" {
         "wilkenrivera",
         "YellsOld",
       ]
+      }, {
+      name        = "HashiTalks 2022"
+      description = "Speakers and contributors of HashiTalks 2022."
+
+      members = [
+        "AmandaBPerino",
+        "BarrosGuy",
+        "CarlosJuanGP",
+        "ChrisNBlum",
+        "CodeOliveira",
+        "CrivetiMihai",
+        "JBFBELL",
+        "SoFetchPhoto",
+        "TheUnclearSam",
+        "YellsOld",
+        "attachmentgenie",
+        "bradmccoydev",
+        "caffeinepresent",
+        "ciscoconsultant",
+        "debugagent",
+        "elifsamedin",
+        "erikveld",
+        "glynn_forrest",
+        "howdevelop",
+        "iaguis",
+        "ingkarinamora",
+        "itsmesumanc",
+        "javajirawat",
+        "JColeMorrison",
+        "joatmon08",
+        "kmruddy",
+        "krsiye",
+        "lrpurba",
+        "marcjleblanc",
+        "martinb3",
+        "mrkaran_",
+        "ned1313",
+        "nic972",
+        "onlydole",
+        "owenrum",
+        "robertbelson",
+        "rylerhockenbury",
+        "saiyampathak",
+        "sergeypronin",
+        "tracey_pooh",
+        "tracypholmes",
+      ]
     }
   ]
 }
