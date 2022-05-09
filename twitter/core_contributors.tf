@@ -7,8 +7,8 @@ variable "hashicorp_core_contributors" {
 
   default = [
     {
-      name        = "HashiCorp Core Contributors 2022"
-      description = "A list of @HashiCorp Core Contributors for 2022. More information on hashicorp.com/ambassadors."
+      name        = "HashiCorp Contribs 22"
+      description = "A list of @HashiCorp Core Contributors for 2022."
 
       members = [
         "DefolosDC",
