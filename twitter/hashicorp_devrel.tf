@@ -8,13 +8,14 @@ variable "hashicorp_folks" {
   default = [
     {
       name        = "HashiCorp DAs and TCMs"
-      description = "(current / former) developer advocates and community folks at @HashiCorp."
+      description = "(current / former) Developer Advocates and Community folks at @HashiCorp."
 
       members = [
         "amierchery",
         "build1point0",
         "christi3k",
         "c_r_w",
+        "dev_hulk",
         "devops_rob",
         "devopsjacquie",
         "devopsjono",
@@ -34,6 +35,7 @@ variable "hashicorp_folks" {
         "SolutionGeek",
         "tracypholmes",
         "XanderGrzy",
+        "white_jaz",
       ]
     },
     {
