@@ -1,23 +1,22 @@
-# Codified Social Media
+# Twitter Lists with Terraform
 
-> Terraform configuration to manage Social Media
+> Terraform configuration to manage Twitter Lists
 
 ## Table of Contents
 
-- [Codified Social Media](#codified-social-media)
+- [Twitter Lists with Terraform](#twitter-lists-with-terraform)
   - [Table of Contents](#table-of-contents)
   - [Requirements](#requirements)
-  - [Usage](#usage)
   - [Author Information](#author-information)
   - [License](#license)
 
 ## Requirements
 
-- Terraform `1.0.11` or newer
+- Terraform `1.1.9` or newer
 
 ## Author Information
 
-This repository is maintained by the contributors listed on [GitHub](https://github.com/ksatirli/codified-social-media/graphs/contributors).
+This repository is maintained by the contributors listed on [GitHub](https://github.com/ksatirli/twitter-lists/graphs/contributors).
 
 ## License
 
