@@ -7,7 +7,7 @@ variable "hashicorp_ambassadors" {
 
   default = [
     {
-      name        = "HashiCorp Ambassadors 2022"
+      name        = "HashiCorp Ambassadors 22"
       description = "A list of @HashiCorp Ambassadors for 2022. More information on hashicorp.com/ambassadors."
 
       members = [
@@ -84,7 +84,7 @@ variable "hashicorp_ambassadors" {
       ]
     },
     {
-      name        = "HashiCorp Ambassadors 2021"
+      name        = "HashiCorp Ambassadors 21"
       description = "A list of @HashiCorp Ambassadors for 2021. More information on hashicorp.com/ambassadors."
 
       members = [
@@ -166,7 +166,7 @@ variable "hashicorp_ambassadors" {
       ]
     },
     {
-      name        = "HashiCorp Ambassadors 2020"
+      name        = "HashiCorp Ambassadors 20"
       description = "A list of @HashiCorp Ambassadors for 2020. More information on hashicorp.com/ambassadors."
 
       members = [
