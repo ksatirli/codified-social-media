@@ -20,7 +20,7 @@ terraform {
   }
 
   # see https://www.terraform.io/docs/language/settings/index.html#specifying-a-required-terraform-version
-  required_version = "1.0.11"
+  required_version = "1.1.9"
 }
 
 # see https://registry.terraform.io/providers/paultyng/twitter/latest/docs
