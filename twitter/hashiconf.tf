@@ -7,7 +7,7 @@ variable "hashiconf" {
 
   default = [
     {
-      name        = "HashiConf Digital 21"
+      name        = "HashiConf Digital 2021"
       description = "@HashiConf Digital (Global 2021) Speakers."
 
       members = [
@@ -39,7 +39,7 @@ variable "hashiconf" {
       ]
     },
     {
-      name        = "HashiConf Digital (EU 21)"
+      name        = "HashiConf Digital (EU 2021)"
       description = "@HashiConf Digital (Europe 2021) Speakers."
 
       members = [
