@@ -7,38 +7,42 @@ variable "hashicorp_folks" {
 
   default = [
     {
-      name        = "HashiCorp DAs and TCMs"
-      description = "(current / former) Developer Advocates and Community folks at @HashiCorp."
+      name        = "HashiCorp Community Team"
+      description = "current Community Team folks at @HashiCorp."
 
       members = [
         "amierchery",
-        "build1point0",
-        "christi3k",
         "c_r_w",
         "dev_hulk",
         "devops_rob",
-        "devopsjacquie",
-        "devopsjono",
         "erikveld",
         "HeddaMeow",
         "JColeMorrison",
         "joatmon08",
         "jrsyo",
         "justinklztr",
-        "katiereese317",
         "ksatirli",
-        "nicolerenee3810",
-        "onlydole",
-        "sethvargo",
         "sheriffjackson",
         "SoFetchPhoto",
         "SolutionGeek",
-        "tracypholmes",
-        "XanderGrzy",
         "white_jaz",
       ]
-    },
-    {
+    }, {
+      name        = "frm. HashiCorp Community"
+      description = "former Community Team folks at @HashiCorp."
+      members = [
+        "build1point0",
+        "christi3k",
+        "devopsjacquie",
+        "devopsjono",
+        "katiereese317",
+        "nicolerenee3810",
+        "onlydole",
+        "sethvargo",
+        "tracypholmes",
+        "XanderGrzy",
+      ]
+    }, {
       name        = "HashiCorp Education",
       description = "(current / former) edu folks at @HashiCorp.",
 
